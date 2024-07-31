@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gupter", serif;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    background: #3B5D50;
+}
+.logo a{
+    color: whitesmoke;
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 1em;
+    
+}
+.logo a img{
+    position: relative;
+
+    width: 200px;
+}
+nav a{
+    margin: 10px;
+    color: whitesmoke;
+    padding: 10px;
+    transition: 90ms ease-out;
+    border-radius: 10px;
+}
+nav a:hover{
+    background: #fefefe;
+    color: #3B5D50;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 500px; */
+}
+.logsign{
+    margin-left: 2em;
+}
+.logsign a{
+    margin-right: 1em;
+    margin-right: 1rem;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+/* end header  */
+.sectiondisplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+#home{
+    background: #3B5D50;
+    height: 90vh;
+}
+.img img{
+    width: 600px;
+    height: 600px;
+}
+
+.massege{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    text-align: center;
+}
+.massege h3{
+    margin-bottom: 1em;
+    background: #fefefe;
+    color: #fefefe;
+    font-size: 5em;
+}
+.massege a{
+    border: 2px solid #aaac17;
+    background: yellow;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    margin-top: 2em;
+    font-weight: 600;
+    
+    color: #3B5D50;
+}

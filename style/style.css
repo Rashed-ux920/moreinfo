@@ -103,3 +103,11 @@ nav a:hover{
     font-size: 1.5rem;
     color: #fefefe;
 }
+.massege .calltoaction{
+    background: none;
+    color: #fefefe;
+    border: 2px solid #fefefe;
+}
+#services .center{
+    text-align: center;
+}

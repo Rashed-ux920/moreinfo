@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Gupter", serif;
+    font-family: "poppins", sans-serif;
 }
 a{
     text-decoration: none;
@@ -108,6 +108,18 @@ nav a:hover{
     color: #fefefe;
     border: 2px solid #fefefe;
 }
+#services{
+    background: #fefefe;
+}
 #services .center{
     text-align: center;
+    font-size: 1.6rem;
+}
+.card{
+    background: none;
+    margin: 1em;
+
+}
+.card-img img{
+    width: 300px;
 }
